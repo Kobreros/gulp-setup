@@ -1,0 +1,30 @@
+// Breakpoints
+$layout-breakpoint-desktop: 1280px;
+$layout-breakpoint-tablet: 992px;
+$layout-breakpoint-phone: 688px;
+
+// Colors
+$black: #000000;
+$black-light: #474747;
+$gray: #666666;
+$gray300: #888888;
+$light-gray: #f8f8f8;
+$white: #ffffff;
+$yellow: #f7b731;
+$blue: #46aaf2;
+$green: #11ac84;
+
+// Mixins
+// USAGE - @include v.red-bg;
+@mixin red-bg {
+  background-color: red;
+}
+
+// Easing
+$default-ease: cubic-bezier(0.645, 0.045, 0.355, 1);
+
+// Spacing
+$section-margin: 140px;
+
+// Border radius
+$main-radius: 20px;
